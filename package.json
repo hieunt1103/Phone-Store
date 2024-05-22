@@ -1,0 +1,11 @@
+{
+  "name": "team7tieuluan",
+  "version": "1.0.0",
+  "description": "Trần Minh Chiến 2104110096 K15DCPM02\r Nguyễn Trung Hiếu K15DCPM02 2104110088\r Lê Thị Phương Chung K15DCPM02 2104110075\r Trương Xuân Việt 2104110086 K15dcpm02",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

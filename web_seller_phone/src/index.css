@@ -1,0 +1,72 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+:root {
+    --primary-color: white;
+    --black: #000;
+    --text-color: #333;
+    --header-height-default-layout: 60px;
+    --default-layout-width: 1000px;
+}
+html {
+    font-size: 50%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+[taxindex],
+button,
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.square-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-button {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rectangle-button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.square-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-button {
+    background-color: #dc3545;
+    color: #fff;
+}
